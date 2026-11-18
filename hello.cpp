@@ -4,6 +4,7 @@
 int main() {
     auto msg = std::format("Hello World");
     std::cout << msg;
+    std::cout << "Git is tracking this file." << endl;
 
     return 0;
 }
