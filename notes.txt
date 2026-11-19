@@ -1,0 +1,10 @@
+Git practice notes
+
+a.) Git add stages changes for the next commit, while git commit store those stated changes into a repo history. Git commit creates a new commit, where git add stages, you cannot commit if you haven't add first.
+
+b.) It changed the cout "goodbye world" back to "hello world", so it restore the contents at the beginning. Pre-commit.
+
+
+c.) Bloat! build artifacts are unnecessary, it doesn't even relate to the source code itself. Plus .exe is only platform specific to windows, so its redundant.
+
+d.) Git revert reverses the changes made by an prior commit by creating a new commit, it does not move the branch back to that commit. Post-commit. Git restore replaces the content with the content in the beginning state. Pre-commit
